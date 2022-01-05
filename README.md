@@ -2,7 +2,7 @@
   <b>Group H</b><br>
   <b>'GetLearning'</b><br>
   <b>Prepared by Issak Ali Mahamat (1829957), Usama Abdulrazak Abdullahi (2012065), Anes Mazin Muhammed (2116025) and Nuru Mahmud Mohammedsaid (1823723) </b><br>
-  <b> GetLearning is a website that accepts donations and volunteers to help those in need of help in education </b><br>
+  <b> GetLearning is a website that accepts donations and volunteers to help those in need of support in education </b><br>
 </p>
 
 
