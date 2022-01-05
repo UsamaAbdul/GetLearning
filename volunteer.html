@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>Volunteer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/volunteer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/volunteer.js"></script>
+</head>
+<body>
+    <div class="navbar" id="mynavbar"> 
+        <img src="images/logo.jpg" width="109" height="109" class="logo"> 
+        <a href="homepage.html">Homepage</a>
+        <a href="donations.html">Donations</a>
+        <a href="volunteer.html" class="active">Volunteer</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+
+    
+    <img src="images/background - volunteer.png" width="100%">
+    
+    
+    <div class="container-80">
+        <div class="container-40-left">
+            <h1>Volunteering Benefits</h1>
+            <hr>
+            <img src="images/volunteering.jpg" width="100%"><br><br>
+            <hr>
+            <iframe width="100%" height="530px" src="https://www.youtube.com/embed/nj9LNjB5i4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="container-40-right">
+            <h1>Volunteer Form</h1>
+            <hr>
+            <div class="formdiv">
+                <form name="questionnaire">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Full Name...">
+                
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age" placeholder="Age..">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number...">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email...">
+
+                    <input type="button" class="buttonForm" value="Submit" onclick="validateForm()">
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2>About Us</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Demo</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Terms of Services</a>
+                </div>
+                <div class="footer-heading footer-2">
+                   <h2>Contact Us</h2>
+                   <a href="#">Jobs</a>
+                   <a href="#">Support</a>
+                   <a href="#">Contact</a>
+                   <a href="#">Sponsorships</a>
+               </div>
+               <div class="footer-heading footer-3">
+                   <h2>Social Media</h2>
+                   <a href="#">Instgram</a>
+                   <a href="#">Facebook</a>
+                   <a href="#">Twitter</a>
+                   <a href="#">Snapchat</a>
+               </div>
+               <div class="footer-email-form">
+                   <h2>Join our newsletter</h2>
+                   <input type="email" placeholder="Enter your email address" id="footer-email">
+                   <input type="submit" value="Sign up" id="footer-email-btn">
+               </div>
+            </div>
+            <hr color="#777">
+            <p class="footer-copyright">  &copy;  Copyright 2022 - Malaysia</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/donation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/donation.js"></script>
+    <title>Donations</title>
+</head>
+<body>
+    <div class="navbar" id="mynavbar">
+        <img src="images/logo.jpg" width="109" height="109" class="logo">
+        <a href="homepage.html">Homepage</a>
+        <a href="donations.html" class="active">Donations</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    <img src="images/backgound - donation.jpg" width="100%">
+    <div style="text-align: center;">
+        <h2 class="p3">Donations</h2>
+        <p class="p1"><strong>The value of life is not in it's duration, but in its donation.</strong></p>
+        <p class="p2">Let us help together</p>
+    </div>
+    <div class="row">
+        <div class="col-75" id="form_div">
+            <div class="container">
+                <form id="payment_form" onsubmit="submitDonation()">
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Personal Information:</h3>
+                            <br><br>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input required type="text" id="fname" name="firstname" placeholder="Issak Ali Mahamat">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input required type="text" id="email" name="email" placeholder="issakali@fmail.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input required type="text" id="adr" name="address" placeholder="IIUM, Mahallah Siddiq">
+                            <label for="city"><i class="fa fa-institution"></i> City</label>
+                            <input required type="text" id="city" name="city" placeholder="Kuala Lumpur">
+                            <div class="row">
+                                <div class="col-50" style="width: 50%;">
+                                    <label for="state">State</label>
+                                    <input required type="text" id="state" name="state" placeholder="Selangor">
+                                </div>
+                                <div class="col-50" style="width: 50%;">
+                                    <label for="zip">Zip</label>
+                                    <input required type="text" id="zip" name="zip" placeholder="53100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-50">
+
+                            <div style="width: 100%; display: table;">
+                                <div style="display: table-row; padding-bottom: 20px;">
+                                    <div style="display: table-row; ">
+                                        <h3>Payment Method:</h3>
+                                    </div>
+                                    <div style="display: table-cell;">
+                                        <div class="icon-container">
+                                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input required type="text" id="cname" name="cardname" placeholder="Issak Ali">
+                            <label for="ccnum">Credit card number</label>
+                            <input required type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input required type="text" id="expmonth" name="expmonth" placeholder="November">
+                            <label for="expmonth">Amount</label>
+                            <input required type="text" id="amount" name="amount" placeholder="RM100">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Year</label>
+                                    <input required type="text" id="expyear" name="expyear" placeholder="2024">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input required type="text" id="cvv" name="cvv" placeholder="072">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Donate Now" class="btn">
+                </form>
+            </div>
+        </div>
+        <!------------footer---------->
+    </div>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h2>About Us</h2>
+                    <a href="#">Blog</a>
+                    <a href="#">Demo</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Terms of Services</a>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2>Contact Us</h2>
+                    <a href="#">Jobs</a>
+                    <a href="#">Support</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Sponsorships</a>
+                </div>
+                <div class="footer-heading footer-3">
+                    <h2>Social Media</h2>
+                    <a href="#">Instgram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Snapchat</a>
+                </div>
+                <div class="footer-email-form">
+                    <h2>Join our newsletter</h2>
+                    <input type="email" placeholder="Enter your email address" id="footer-email">
+                    <input type="submit" value="Sign up" id="footer-email-btn">
+                </div>
+            </div>
+            <hr color="#777">
+            <p class="footer-copyright"> &copy; Copyright 2022 - Malaysia</p>
+        </div>
+    </section>
+</body>
+
+</html>
