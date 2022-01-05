@@ -8,6 +8,7 @@
 
 
 # Project Description
+
 To begin with, in this report we have chosen our topic theme related to the 4th goal of  Sustainable Development Goals (SDG) which is “Education Quality'' for our target users. Based on our theme, we decided to develop a website to collect donations and distribute it to the schools which are facing problems of a lack of materials for learning, our organization will be called   “GetLearning''. In addition to that, we’ve also come up with a mock-up design to show the feel and look of our website. Moreover, our goal is to promote inclusive and sustainable education quality, for schools facing problems of a lack of learning materials for students and teachers. Nowadays, a lot of schools struggle with the insufficiency of study material, so by creating the “GetLearning” organisation we can help the students and teachers who are facing these problems to conduct their studies adequately.
 
 Our website consists of five pages which are home, donation, volunteer, about us and contact us page. The fonts that we will use are open sans serif, arvo and merriweather. We aim for the website to have all the information a user needs and also be simple and minimalistic at the same time, this is in order to not overload the user with clutter and also keep the website visually appealing. The main colors we intend to use are green, brown and blue with a white background color for the website, we plan on choosing the more warmer shades of those colors. 
@@ -43,3 +44,22 @@ Aforementioned, the website will  have a volunteer page. Similar to the donation
 | Photo       | background-volunteer.jpg                                                                 | Taken from californiavolunteer.org | —                     |
 | Photo       | volunteering.jpg                                                                         | Taken from pinterest.com           | —                     |
 | Video       | What are the benefits of volunteering?                                                   | Taken from youtube.com             | —                     |
+
+# References 
+
+Using Behavioural Insights to Increase Charitable Donations, CSC
+https://www.csc.gov.sg/articles/using-behavioural-insights-to-increase-charitable-donations
+
+Font Awesome Web Application Icons, W3Schools Online Web Tutorials
+https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+
+CSS Tutorial, W3Schools Online Web Tutorials
+https://www.w3schools.com/css/default.asp
+
+How To - Profile Card
+https://www.w3schools.com/howto/howto_css_profile_card.asp
+
+Flaticon License. Retrieved 5th January 2022 from 
+https://www.flaticon.com/
+
+
